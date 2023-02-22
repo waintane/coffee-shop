@@ -1,3 +1,94 @@
 .Accueil{
-    
+    .banniere{
+        height: 87vh;
+        background-color: black;
+
+        display: flex;
+        flex-direction: column;
+        .container:nth-of-type(1){
+            height: 33.3%;
+            width: 100%;
+            background-image: url("../../img/contact.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .container:nth-of-type(2){
+            height: 33.3%;
+            width: 100%;
+            background-image: url("../../img/gallerie.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 10% 30%;
+        }
+        .container:nth-of-type(3){
+            height: 33.3%;
+            width: 100%;
+            background-image: url("../../img/gallerie2.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-position: 10% 70%;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+
+            a{
+                text-decoration: none;
+            }
+
+            .description{
+                background-color: rgba(0, 0, 0, 0.685);
+                color: white;
+                width: 100vw;
+                padding: 10px 0px;
+
+                text-align: center;
+                font-size: clamp(22px, 1.5vw, 30px);
+                font-weight: 300;
+            }
+        }
+    }
+
+    .a-propos{
+        margin-top: 40px;
+        
+        .titre{
+            background-color: #DE9E36;
+            color: white;
+            height: 60px;
+            width: 100vw;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h2{
+                font-family: Montserrat;
+                font-weight: 1000;
+                font-size: clamp(25px, 2.3vw, 50px);
+            }
+        }
+        .img{
+            margin-top: 40px;
+            margin-bottom: 20px;
+
+            width: 100vw;
+            height: 220px;
+            
+            background-image: url("../../img/a-propos.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .texte{
+            margin-left: 4vw;
+            margin-right: 4vw;
+
+            p{
+                margin-bottom: 10px;
+                font-size: clamp(19px, 1.5vw, 30px);
+            }
+        }
+    }
 }
