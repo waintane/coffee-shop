@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "nom": "crepe papa",
+        "prix": 20.00,
+        "description": "loren ipsum machin isndia isdaini aindiasdk fmkm "
+    },
+    {
+        "id": 2,
+        "nom": "gauffre maman",
+        "prix": 17.00,
+        "description": "loren ipsum machin isndia isdaini aindiasdk fmkm "
+    },
+    {
+        "id": 3,
+        "nom": "toast maman",
+        "prix": 17.00,
+        "description": "loren ipsum machin isndia isdaini aindiasdk fmkm "
+    },
+    {
+        "id": 4,
+        "nom": "crepe papa",
+        "prix": 20.00,
+        "description": "loren ipsum machin isndia isdaini aindiasdk fmkm "
+    },
+    {
+        "id": 5,
+        "nom": "gauffre maman",
+        "prix": 17.00,
+        "description": "loren ipsum machin isndia isdaini aindiasdk fmkm "
+    },
+    {
+        "id": 6,
+        "nom": "toast maman",
+        "prix": 17.00,
+        "description": "loren ipsum machin isndia isdaini aindiasdk fmkm "
+    }
+]

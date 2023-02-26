@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "nom": "sandwich pa",
+        "prix": 13.00,
+        "description": "loren  qokweq oqwkd oqdokw  isdaini aindiasdk fmkm "
+    },
+    {
+        "id": 2,
+        "nom": "sandwich maman",
+        "prix": 18.00,
+        "description": " wl;q dkqw;lqwk wdkd wni aindiasdk fmkm "
+    },
+    {
+        "id": 3,
+        "nom": "burger madison",
+        "prix": 17.00,
+        "description": "loren i adok a wodkaok wdisdaini aindiasdk fmkm "
+    },
+    {
+        "id": 4,
+        "nom": "sandwich papa",
+        "prix": 20.00,
+        "description": "loren ipsum machin isndia isdaini aindiasdk fmkm "
+    },
+    {
+        "id": 5,
+        "nom": "sandwich maman",
+        "prix": 17.00,
+        "description": "loren ipsum machin isndia isdaini aindiasdk fmkm "
+    },
+    {
+        "id": 6,
+        "nom": "sandwich maman",
+        "prix": 17.00,
+        "description": "loren ipsum machin isndia isdaini aindiasdk fmkm "
+    }
+]

@@ -6,6 +6,7 @@ import Accueil from './composantes/pages/Accueil';
 import Contact from './composantes/pages/Contact';
 import Menu from './composantes/pages/Menu';
 import Gallerie from './composantes/pages/Gallerie';
+import Footer from './composantes/UI/Footer';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <Route path="/menu" element = {<Menu/>}></Route>
         <Route path="/gallerie" element = {<Gallerie/>}></Route>
       </Routes>
+
+      <Footer/>
     </div>
   );
 }

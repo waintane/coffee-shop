@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "nom": "pizza la vivia",
+        "prix": 22.00,
+        "description": "loren ipsd wlpa dapdl  wdwad ia isdaini aindiasdk fmkm "
+    },
+    {
+        "id": 2,
+        "nom": "salade maman",
+        "prix": 13.00,
+        "description": "lorm madkejd kj ekjfskfjlf ndia isdaini aindiasdk fmkm "
+    },
+    {
+        "id": 3,
+        "nom": "pate maman",
+        "prix": 15.00,
+        "description": "loren  wdqpld pdl qq., ,d; q, ; qwdi aindiasdk fmkm "
+    },
+    {
+        "id": 4,
+        "nom": "pizza papa",
+        "prix": 20.00,
+        "description": "loren ipsum machin isndia isdaini aindiasdk fmkm "
+    },
+    {
+        "id": 5,
+        "nom": "salade maman",
+        "prix": 17.00,
+        "description": "loren ipsum machin isndia isdaini aindiasdk fmkm "
+    },
+    {
+        "id": 6,
+        "nom": "pate maman",
+        "prix": 17.00,
+        "description": "loren ipsum machin isndia isdaini aindiasdk fmkm "
+    }
+]

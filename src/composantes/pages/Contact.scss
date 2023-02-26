@@ -1,3 +1,56 @@
 .Contact{
-    
+    .banniere{
+        width: 100vw;
+        height: 60vh;
+
+        background-image: url(../../img/contact.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+
+        div{
+            background-color: rgba(0, 0, 0, 0.4);
+            color: white;
+            width: 100vw;
+            height: 60px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-size: clamp(22px, 1.5vw, 30px);
+        }
+    }
+    .page-content{
+        width: 90vw;
+        margin: 0px auto;
+
+        h3{
+            margin: 10px 0px;
+        }
+
+        .information{
+            .info-content{
+                display: flex;
+                justify-content: space-between;
+            }
+            margin-bottom: 20px;
+        }
+
+        ul{
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            li{
+                margin: 2px 0px;
+                width: 50%;
+                list-style: none;
+            }
+        }
+    }
 }

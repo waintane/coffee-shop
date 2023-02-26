@@ -24,12 +24,32 @@ export default function Accueil(){
                 <div className="img"></div>
                 <div className="texte">
                     <p>
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magn
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                         invidunt ut labore et dolore magn
                     </p>
                     <p>  
-                        a aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        a aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea 
+                        rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
                     </p>
                 </div>
+            </div>
+
+            <div className="menu">
+                <div className="titre">
+                    <h2>Menu</h2>
+                </div>
+                <div className="img"></div>
+                <div className="texte">
+                    <p>
+                    Lorem ipsum dolor sit amet, con  setetur sadipscing elitr, s  ed diam n onumy 
+                    </p>
+                    <p>
+                    eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed  diam voluptua. 
+                    At vero eos et acc  usam    et
+                    </p>
+                </div>
+                <Link to="/menu"> <div className="bouton"> Menu </div></Link>
             </div>
         </div>
     )

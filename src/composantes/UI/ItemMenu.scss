@@ -1,0 +1,21 @@
+.ItemMenu{
+    width: 90vw;
+    margin: 0px auto;
+    .nom{
+        display: flex;
+        justify-content: space-between;
+
+        margin: 10px 0px;
+        font-size: clamp(20px, 2vw , 40px);
+
+        p{
+            color: rgb(83, 83, 83);
+        }
+    }
+    .description{
+        width: 60%;
+        margin-bottom: 5px;
+        color: rgb(83, 83, 83);
+    }
+    border-bottom: 5px solid rgb(173, 173, 173);
+}
