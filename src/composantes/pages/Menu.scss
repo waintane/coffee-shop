@@ -53,3 +53,38 @@
         }
     }
 }
+@media only screen and (min-width: 901px){
+    .Menu{
+        .banniere{
+            width: 100vw;
+            height: 80vh;
+
+            background-position: 10% 40%;
+            div{
+                background-color: rgba(0, 0, 0, 0.4);
+                color: white;
+                width: 100vw;
+                height: 80vh;
+    
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+                font-size: clamp(40px, 4vw, 100px);
+            }
+        }
+        .filter{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+            width: 92vw;
+            margin: 40px auto;
+            .bouton{
+                width: clamp(250px, 18vw, 500px);
+                height: clamp(50px, 4vw, 100px);
+            }
+        }
+    }
+}

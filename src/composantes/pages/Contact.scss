@@ -1,4 +1,6 @@
 .Contact{
+    width: 100vw;
+    overflow-x: hidden;
     .banniere{
         width: 100vw;
         height: 60vh;
@@ -25,24 +27,44 @@
             font-size: clamp(22px, 1.5vw, 30px);
         }
     }
+    .titre{
+        background-color: #DE9E36;
+        color: white;
+        height: 60px;
+        width: 100vw;
+        margin: 40px 0px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h2{
+            font-family: Belleza;
+            font-weight: 1000;
+            font-size: clamp(25px, 2.3vw, 50px);
+        }
+    }
     .page-content{
         width: 90vw;
         margin: 0px auto;
 
         h3{
             margin: 10px 0px;
+            font-size: clamp(20px, 2vw, 50px);
         }
 
         .information{
             .info-content{
                 display: flex;
                 justify-content: space-between;
+                font-size: clamp(16px, 1.5vw, 35px);
+                color: rgb(94, 94, 94);
             }
             margin-bottom: 20px;
         }
 
         ul{
-            height: 100px;
+            height: 130px;
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
@@ -50,6 +72,66 @@
                 margin: 2px 0px;
                 width: 50%;
                 list-style: none;
+
+                font-size: clamp(18px, 1.5vw, 35px);
+                color: rgb(94, 94, 94);
+            }
+        }
+    }
+}
+@media only screen and (min-width: 901px){
+    .Contact{
+        .banniere{
+            width: 100vw;
+            height: 80vh;
+
+            background-position: 10% 40%;
+            div{
+                background-color: rgba(0, 0, 0, 0.4);
+                color: white;
+                width: 100vw;
+                height: 80vh;
+    
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+                font-size: clamp(40px, 4vw, 100px);
+            }
+        }
+        .information{
+            width: 30vw;
+            grid-area: info;
+        }
+        .map{
+            grid-area: map;
+        }
+        .horaire{
+            grid-area: horaire;
+        }
+        .titre{
+            width: 92vw;
+            height: 4vw;
+            padding-left: 4vw;
+        }
+        .page-content{
+            
+            width: 92vw;
+            margin-top: 60px;
+            display: grid;
+            grid-template-areas: 
+            "info map"
+            "horaire map"
+            ;
+            grid-template-columns: 1fr 1.3fr;
+
+            h3{
+                padding: 20px 0px;
+            }
+
+            ul{
+                width: clamp(200px, 34vw, 600px);
+                height: clamp(100px, 15vw, 200px);
             }
         }
     }

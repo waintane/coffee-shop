@@ -5,24 +5,22 @@
 
         display: flex;
         flex-direction: column;
-        .container:nth-of-type(1){
+        .container{
             height: 33.3%;
             width: 100%;
+        }
+        .container:nth-of-type(1){
             background-image: url("../../img/contact.jpg");
             background-size: cover;
             background-repeat: no-repeat;
         }
         .container:nth-of-type(2){
-            height: 33.3%;
-            width: 100%;
             background-image: url("../../img/gallerie.jpg");
             background-size: cover;
             background-repeat: no-repeat;
             background-position: 10% 30%;
         }
         .container:nth-of-type(3){
-            height: 33.3%;
-            width: 100%;
             background-image: url("../../img/gallerie2.jpg");
             background-size: cover;
             background-repeat: no-repeat;
@@ -45,7 +43,7 @@
                 padding: 10px 0px;
 
                 text-align: center;
-                font-size: clamp(22px, 1.5vw, 30px);
+                font-size: clamp(22px, 2vw, 50px);
                 font-weight: 300;
             }
         }
@@ -72,20 +70,22 @@
 
         p{
             margin-bottom: 30px;
-            font-size: clamp(19px, 1.5vw, 30px);
+            font-size: clamp(19px, 1.5vw, 40px);
         }
     }
 
+    .img{
+        margin-top: 40px;
+        margin-bottom: 20px;
+
+        width: 100vw;
+        height: 220px;
+    }
     .a-propos{
         margin-top: 40px;
         
         .img{
-            margin-top: 40px;
-            margin-bottom: 20px;
-
-            width: 100vw;
-            height: 220px;
-            
+       
             background-image: url("../../img/a-propos.jpg");
             background-size: cover;
             background-repeat: no-repeat;
@@ -93,11 +93,6 @@
     }
     .menu{
         .img{
-            margin-top: 40px;
-            margin-bottom: 20px;
-
-            width: 100vw;
-            height: 220px;
             
             background-image: url("../../img/menu2.jpg");
             background-size: cover;
@@ -123,5 +118,86 @@
             }
         }
         
+    }
+}
+@media only screen and (min-width: 700px){
+    .Accueil{
+
+        .banniere{
+            height: 70vh;
+            display: flex;
+            flex-direction: row;
+            background-color: rgba(0, 0, 0, 0);
+            
+            .container{
+                width: 33.33%;
+                height: 70vh;
+                .description{
+                    width: 33.33vw;
+                }
+            }
+        }
+            .img{
+                width: 92vw;
+                margin: 40px auto;
+            }
+    }
+
+}
+@media only screen and (min-width: 901px){
+    .Accueil{
+        .banniere{
+            height: 80vh;
+            .container{
+                height: 80vh;
+                .description{
+                    padding: 1.5vw 0px;
+                }
+            }
+        }
+        .titre{
+            width: 92vw;
+            height: 4vw;
+        }
+        .contenue{
+            display: flex;
+            width: 96vw;
+            .texte{
+                margin-top: 40px;
+                width: 50%;
+            }
+            .img{
+                width: 50vw;
+                height: 25vw;
+            }
+        }
+        .a-propos{
+            .titre{
+                padding-left: 4vw;
+                justify-content: start;
+
+            }
+            .contenue{
+                flex-direction: row-reverse;
+                
+            }
+        }
+        .menu{
+            width: 96vw;
+            margin-left: auto;
+            .titre{
+                justify-content: end;
+                padding-right: 4vw;
+            }
+            a{
+                .bouton{
+                    margin: 0px 0px;
+                    width: 60%;
+                    height: 20%;
+                    border: 0.3vw solid #DE9E36;
+                }
+            }
+        }
+
     }
 }

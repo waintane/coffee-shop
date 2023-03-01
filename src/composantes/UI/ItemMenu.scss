@@ -16,6 +16,7 @@
         width: 60%;
         margin-bottom: 5px;
         color: rgb(83, 83, 83);
+        font-size: clamp(16px, 1.4vw , 25px);
     }
     border-bottom: 5px solid rgb(173, 173, 173);
 }

@@ -7,6 +7,9 @@ export default function Contact(){
             <div className="banniere">
                 <div> Contact </div>
             </div>
+            <div className="titre">
+                    <h2>Location</h2>
+            </div>
             <section className="page-content">
                 <div className="information">
                     <h3>Café gentile parc avenue</h3>
